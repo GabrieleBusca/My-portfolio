@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio personale Front-End Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> This is my Portfolio | Gabriele Buscalferri</title>
+    <link rel="stylesheet" href="myportfolio.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <h1 class="logo">Gabriele Buscalferri</h1>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h2>Ciao, sono <span>Gabriele Buscalferri</span></h2>
+        <p>Studente presso Epicode University</p>
+        <a href="#contact" class="btn">Contattami</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>Chi sono</h2>
+    <p>
+        Mi chiamo Gabriele, ho 22 anni e sono uno studente dell’università di Epicode, dove sto costruendo solide basi nel mondo dello sviluppo web. Il mio percorso nasce da una forte curiosità verso la tecnologia e dal desiderio di comprendere a fondo come funzionano gli strumenti digitali che utilizziamo ogni giorno.
+                
+                    Ho deciso di intraprendere la strada del web development perché credo fermamente che la conoscenza tecnologica sia oggi una competenza fondamentale per affrontare il presente e il futuro. Viviamo in un’epoca in cui l’innovazione avanza a un ritmo sempre più rapido, e il mio obiettivo è quello di tenere il passo con l’evoluzione tecnologica, sviluppando competenze concrete e aggiornate che mi permettano di adattarmi e crescere continuamente.
+                    
+                    Durante il mio percorso di studi in Epicode sto approfondendo sia gli aspetti teorici che pratici dello sviluppo web, imparando a progettare interfacce funzionali, scrivere codice pulito e affrontare problemi in modo logico e strutturato. Mi piace mettermi alla prova, sperimentare nuove soluzioni e migliorare costantemente le mie abilità, consapevole che questo settore richiede studio continuo, curiosità e capacità di apprendimento costante.
+                    
+                    Il mio obiettivo è diventare un web developer competente e versatile, in grado non solo di creare applicazioni e siti web efficaci, ma anche di comprendere il contesto tecnologico in cui operano. Vedo il web development non solo come una professione, ma come uno strumento per contribuire attivamente al mondo digitale, trasformando idee in soluzioni concrete e funzionali.
+                    
+                Sono all’inizio del mio percorso, ma motivato, determinato e pronto a crescere, con la convinzione che passione, impegno e formazione continua siano le chiavi per costruire una carriera solida nel settore tecnologico.</p>
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Competenze</h2>
+
+    <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div class="progress html"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>CSS3</span>
+        <div class="bar"><div class="progress css"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="progress js"></div></div>
+    </div>
+</section>
+
+<section id="resume" class="resume">
+    <h2>Resume</h2>
+
+    <div class="cards">
+        <div class="card glass">
+            <h3>Formazione</h3>
+            <p>Diploma Istituto superiore Girolamo Varnelli Cingoli</p>
+        </div>
+
+        <div class="card glass">
+            <h3>Esperienza</h3>
+            <p>Stage Caffè Morazzini Moie (AN)</p>
+            <p>Stage Bar Manu Moie (AN)</p>
+            <p>Stage Pasticceria Campagnoli Apiro (MC)</p>
+        </div>
+
+        <div class="card glass">
+            <h3>Obiettivi</h3>
+            <p>Diventare Front-End Developer professionista</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contatti</h2>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Messaggio" required></textarea>
+        <button type="submit" class="btn">Invia</button>
+        <p id="formMessage"></p>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Gabriele Buscalferri</p>
+</footer>
+
+<script src="myportfolio.js"></script>
+</body>
+</html>

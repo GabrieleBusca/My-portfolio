@@ -1,0 +1,15 @@
+ p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+       }
+       .blue-and-bold {
+        color: blue;
+        font-weight: 700;
+       }
+
+       #third-title {
+        font-size: 60px;
+        font-weight: 700;
+        
+    
+       }

@@ -1,0 +1,106 @@
+.Header{
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center; /* mette il testo centrale*/
+margin: 10px 100px; /*crea spazio intorno all'elemento cosi che puoi spostarlo ancora, mettendo solo 10 px lo mette uguali per tutti i lati, piu ne inserisci più sei specifico sul posizionamento*/
+}
+
+.header-logo img{
+width: 150px;
+}
+
+#login-button{
+    padding: 10px 20px; /*imposta una distanza intorno all'elemento creando un rettangolo che puoi modificare come vuoi, se scrivi un numero più grande il rettangolo sarà piu grande*/
+    background-color: #D81F26; 
+    color: white; /*cambia il colore del contenuto, in questo caso della scritta "accedi"*/
+    text-decoration: none; /*toglie la sottolineatura iniziale*/
+    font-weight: 700; /*rende il testo più bold*/
+    border-radius: 10px;
+}
+
+.hero-box{
+width: 50%; /*imposta lo spazio che occupa la box nella pagina*/
+margin: 150px auto; /*imposta la stezza distanza su tutti e 4 i lati*/
+text-align: center;
+}
+
+.input-hero{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+
+
+.hero-box input{
+width: 400px;
+height:50px;
+background-color: rgb(195, 193, 193);
+border: solid;
+border-width: 1px;
+background-color: rgb(66, 65, 65);
+border-radius: 10px;
+
+}
+
+.hero-box button{
+height: 50px;
+width: 150px;
+background-color:#D81F26;
+color: white;
+font-weight: 700;
+font-size: large;
+border:none;
+border-radius: 5px; 
+
+}
+
+body {
+ font-family: "Poppins", sans-serif;
+ margin: 0px;
+ margin-top: 0px;
+
+}
+
+h1 {
+font-size: 50px;
+line-height: 50px;
+
+}
+
+#first-paragraph{
+font-weight: 700;
+
+
+
+}
+
+
+.hero-section{
+height: 100vh;
+color:white;
+background:linear-gradient(0deg, rgba(0, 0, 0, 0.5 ), rgba(0, 0, 0, 0.5)), url('https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg');
+}
+
+#language-select{
+height: 30px;
+margin-right: 10px;
+width:120px ;
+text-align: center;
+font-weight: 600;
+font-size: large;
+background-color: rgb(22, 22, 22);
+color: white;
+border-radius: 7px;
+border: solid;
+border-color:black;
+}
+
+
+
+
+
+
+
